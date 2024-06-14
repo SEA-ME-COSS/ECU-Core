@@ -10,9 +10,9 @@ import transforms3d.euler
 import math
 
 
-class SimulationReceiver(Node):
+class Receiver(Node):
     def __init__(self):
-        super().__init__('simulation_receiver_node')
+        super().__init__('receiver_node')
         self.subscription_1 = self.create_subscription(Twist, '/piracer/cmd_vel', self.callback_1, 10)
         self.subscription_1  # prevent unused variable warning
 
@@ -71,9 +71,9 @@ class SimulationReceiver(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    simulation_receiver = SimulationReceiver()
+    receiver = Receiver()
 
-    rclpy.spin(simulation_receiver)
+    rclpy.spin(receiver)
 
-    simulation_receiver.destroy_node()
+    receiver.destroy_node()
     rclpy.shutdown()

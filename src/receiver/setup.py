@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'sim_receiver'
+package_name = 'receiver'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'sim_receiver = sim_receiver.sim_receiver:main',
+            'receiver = receiver.receiver:main',
         ],
     },
 )
