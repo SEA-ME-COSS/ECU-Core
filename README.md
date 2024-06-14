@@ -4,12 +4,19 @@
 
 This repository is for the **ECU-HeadUnit** part of the [Autonomous-Driving-System](https://github.com/SEA-ME-COSS/Autonomous-Driving-System) project. The ECU-HeadUnit is based on an independent RaspberryPi board and displays information such as vehicle's driving status and location on the head unit screen. The head unit was developed with QT5 and interacts with [ECU-Core](https://github.com/SEA-ME-COSS/ECU-Core) via CAN communication.
 
-<div width="100%" align="center">
-    <img width="49%" src="/images/gps_off.png">
-    <img width="49%" src="/images/gps_on.png">
-</div>
 
-This repository includes head unit developed in **Ubuntu** OS. By following the documentation, you can setup the environment and run the head unit on Ubuntu. However, in the overall project, this head unit runs in an OS based on the **Yocto Project** and is updated via **OTA**. For more detailed information, refer to the [Autonomous-Driving-System](https://github.com/SEA-ME-COSS/Autonomous-Driving-System) project.
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Requirements
 
@@ -63,14 +70,6 @@ Context of CAN communication
 
 # Reference
 - [Head Unit Design](https://github.com/SEA-ME-COSS/In-Vehicle-Infotainment)
-
-
-
-
-
-
-
-
 
 
 
