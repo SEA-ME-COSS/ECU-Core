@@ -27,7 +27,7 @@ We used **YDLIDAR X4** and **RealSense D435** depth camera in this project. For 
 
 - **LIDAR SDK setup**
 
-    Follow the instruction of [YDLidar-SDK setup](https://github.com/YDLIDAR/YDLidar-SDK/blob/master/doc/howto/how_to_build_and_install.md)
+    Follow the instruction of [YDLidar-SDK setup](https://github.com/YDLIDAR/YDLidar-SDK/blob/master/doc/howto/how_to_build_and_install.md).
 
 - **Depth camera SDK setup**
 
